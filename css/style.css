@@ -106,3 +106,13 @@
 	background-color: #0B754B !important;
 	border-color:#fff !important;;
 }
+
+.pointer
+{
+	cursor: pointer;
+}
+
+.shadow
+{
+	text-shadow: 1px 1px 1px #000;
+}

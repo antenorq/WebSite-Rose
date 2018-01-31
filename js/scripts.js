@@ -3,7 +3,7 @@ $( document ).ready(function()
 
     var $doc = $('html, body');
 
-    $('.item_menu').click(function()
+    $('.ancora').click(function()
 	{
 	    $doc.animate(
 	    {
@@ -13,7 +13,7 @@ $( document ).ready(function()
 	    return false;
 	});
 
-    $(".item_menu").click(function()
+    $(".ancora").click(function()
 	{
         $('.collapse').collapse('hide');
     });
