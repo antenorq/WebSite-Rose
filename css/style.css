@@ -12,6 +12,11 @@
 	*/
 }
 
+body
+{
+
+}
+
 #menu_vertical
 {
 	box-shadow: 2px 2px 2px 2px #ccc;
@@ -19,7 +24,7 @@
 
 .item_menu
 {
-	background: #0B754B;
+	background: #800000;
 	color: #FFFFFF;
 	padding: 2px;
 	font-size: 18px;
@@ -29,17 +34,17 @@
 
 .item_menu:hover
 {
-	background: #18571A;
+	background: #F08080;
 	cursor: pointer;
 }
 
 .item_menu1
 {
-	background: #0B754B;
+	background: #800000;
 	color: #FFFFFF;
 	padding: 10px;
 	line-height: 25px;
-	font-size: 25px;
+	font-size: 20px;
 	text-shadow: 1px 1px 1px #000;
 	font-family: 'Kalam', cursive;
 }
@@ -60,6 +65,11 @@
 	font-weight: bold;
 }
 
+.social_media
+{
+	background-color: #800000;
+}
+
 .social_media i
 {
 	padding: 8px;
@@ -69,7 +79,7 @@
 {
 	font-family: 'Kalam', cursive;
 	font-size: 30px;
-	background: #0B754B;
+	background: #800000;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 1px #000;
 	padding-top: 9px;
@@ -86,19 +96,35 @@
 	padding-top: 9px;
 }
 
-.back_pizza
+.back_image
 {
-	background-image: url("../img/back_pizza.png");
+	background-image: url("../img/back_image.png");
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Lato', sans-serif;
 }
-.back_pizza span
+.back_image span
 {
 	text-shadow: 1px 1px 1px #fff;
 	color: #000;
+	font-size: 20px;
+}
+.back_image2
+{
+	background-image: url("../img/back_image2.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.back_image2 span
+{
+	text-shadow: 1px 1px 1px #fff;
+	color: #000;
+	font-size: 20px;
 }
 
 .navbar-dark .navbar-toggler
