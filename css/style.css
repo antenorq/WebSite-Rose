@@ -1,0 +1,149 @@
+/*------- RESET ----------*/
+*
+{
+	/*
+	margin:0px;
+	padding: 0px;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	*/
+}
+
+body
+{
+
+}
+
+#menu_vertical
+{
+	box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.item_menu
+{
+	background: #800000;
+	color: #FFFFFF;
+	padding: 2px;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px #000;
+	font-family: 'Lato', sans-serif;
+}
+
+.item_menu:hover
+{
+	background: #F08080;
+	cursor: pointer;
+}
+
+.item_menu1
+{
+	background: #800000;
+	color: #FFFFFF;
+	padding: 10px;
+	line-height: 25px;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
+	font-family: 'Kalam', cursive;
+}
+
+.ligue_agora
+{
+	font-family: 'Kalam', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000;
+}
+.numero
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: bold;
+}
+
+.social_media
+{
+	background-color: #800000;
+}
+
+.social_media i
+{
+	padding: 8px;
+}
+
+.titulo_areas
+{
+	font-family: 'Kalam', cursive;
+	font-size: 30px;
+	background: #800000;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000;
+	padding-top: 9px;
+	text-align: center;
+	scroll-behavior: smooth;
+}
+
+.sub_titulo_areas
+{
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000;
+	padding-top: 9px;
+}
+
+.back_image
+{
+	background-image: url("../img/back_image.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.back_image span
+{
+	text-shadow: 1px 1px 1px #fff;
+	color: #000;
+	font-size: 20px;
+}
+.back_image2
+{
+	background-image: url("../img/back_image2.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.back_image2 span
+{
+	text-shadow: 1px 1px 1px #fff;
+	color: #000;
+	font-size: 20px;
+}
+
+.navbar-dark .navbar-toggler
+{
+	background-color: #0B754B !important;
+	border-color:#fff !important;;
+}
+
+.pointer
+{
+	cursor: pointer;
+}
+
+.shadow
+{
+	text-shadow: 1px 1px 1px #000;
+}
+
+.ancora
+{
+	cursor: pointer;
+}
